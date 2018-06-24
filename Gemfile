@@ -71,3 +71,5 @@ gem 'redis', '~> 4.0', '>= 4.0.1'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
 gem 'sprockets', '~> 3.7', '>= 3.7.2'
+
+ruby "2.5.0"
