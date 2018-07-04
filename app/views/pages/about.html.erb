@@ -1,12 +1,12 @@
 <div class="app-card-container">
   <div class="card">
-    <h1>Pages#about</h1>
+    <h1>About Me</h1>
 
     <hr>
 
     <div class="row">
       <div class="col-md-4">
-        <%= image_tag "my_photo.jpg", width: 300, alt: "Profile Image", class: 'profile-image' %>
+        <%= image_tag "BB_photo.jpg", width: 300, alt: "Profile Image", class: 'profile-image' %>
 
         <div class="skills">
           <% @skills.each do |skill| %>
@@ -27,18 +27,18 @@
       </div>
 
       <div class="col-md-8">
-        <p>Find me in app/views/pages/about.html.erb</p>
+        <p>I love the art of creating apps and webpages and the science of logic and problem solving. The thing I love most about development is the ability to create something that not only has form but has function and that can help people with a whole host of needs whether they relate to work, home, worship, play, etc. I enjoy the challenge of learning new languages, troubleshooting code bugs, enhancing code for greater efficiency, and creating a solution for the common (or uncommon) user. My desire is to code apps and webpages that provide solutions and greater efficiency to the tasks of life and work. </p>
 
         <p>
           <button
             class="btn btn-primary"
             type="button"
             data-toggle="collapse"
-            data-target="#jobHistory"
+            data-target="#certifications"
             aria-expanded="false"
-            aria-controler="jobHistory"
+            aria-controler="certifications"
           >
-            Job History
+            Certifications
           </button>
 
           <button
@@ -54,31 +54,40 @@
         </p>
 
         <p>
-          <div class="collapse" id="jobHistory">
+          <div class="collapse" id="certifications">
             <div class="card card-block">
-              Job 1
+              HTML
             </div>
             <div class="card card-block">
-              Job 2
+              CSS
             </div>
             <div class="card card-block">
-              Job 3
+              Javascript
+            </div>
+            <div class="card card-block">
+              Jquery
+            </div>
+            <div class="card card-block">
+              MySQL
+            </div>
+            <div class="card card-block">
+              PHP
             </div>
           </div>
 
           <div class="collapse" id="education">
             <div class="card card-block">
-              School 1
+              Bachelor of Science in Computer Science - Lander University, 2001
             </div>
             <div class="card card-block">
-              School 2
+              While in college I programmed in BASIC, C++, Visual Basic, Visual C++, SCHEME, Assembly Language, and SQL 
             </div>
             <div class="card card-block">
-              School 3
+              I've also programmed in Swift and Java/XML for IOS and Android devices, and have published several apps on both the Apple App Store and the Google Play Store.
             </div>
           </div>
         </p>
       </div>
-    </div>
+    </div> 
   </div>
 </div>
